@@ -1,0 +1,53 @@
+body:not(img){
+  background:url(../img/valentin.jpg);
+  text-align: center;
+  }
+
+section{
+      border-radius: 10px;
+      padding: 20px;
+      border: 1px;
+      margin: 0 auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      background-color: rgba(222, 41, 88, 0.2);
+        }
+
+#texto-descripcion{
+    width: 300px;
+    height: 300px;
+}
+
+#wrap{
+      width:960px;
+      margin:auto;
+      clear: both;
+      }
+
+
+
+.contenedor.oculto{
+      display: none;
+}
+
+.contenedor.mostrando{
+      display: block;
+}
+
+#imagen-love{
+      border-radius: 100px;
+      width: 500px; height: 500px;
+}
+
+
+.codigo div {
+      width:330px;
+      margin-top:-10px;
+}
+
+img:not(#imagen-love) {
+      width:100px;
+      height:100px;
+      float:left;
+      margin:10px 10px 0 0;
+}

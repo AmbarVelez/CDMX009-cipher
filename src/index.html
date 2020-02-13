@@ -7,22 +7,73 @@
   </head>
 
 <body>
-  <main class="start">
-    <h1>Cifrado Caesar</h1>
-    <p style="" >Diviértete y aprende enviándote mensaje secretos con tus amigos.</p>
-    <input type="button" id="button_start" value="Quiero Comenzar">
-    <a href="index2.html" target="_self"></a>
-  </main>
+  <section id="wrap">
+
+  <div class="contenedor mostrando" id="principal">
+    <div>
+      <img src="enamorados1.png" alt="enamorados" id="imagen-love">
+    </div>
+    <div class="start">
+      <h4>Diviértete y aprende enviándote mensaje secretos con tu pareja.</h4>
+      <div id="contenedor_principal" class="contenedor principal">
+      </div>
+      <div class="contenedor-boton">
+        <button onclick="mostrarSiguienteBloque('ciphers')">Quiero comenzar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="contenedor oculto" id="ciphers">
+    <h3>Eligue el cifrado que mas te guste</h3>
+    <div class="codigo">
+      <img src="morse-cipher.jpg"><br>Proximamente...<br>
+      <img src="caesar-cipher_.jpg" ><br>Codigo Cesar<br>
+      <img src="francmason_.png"><br>Proximamente...
+    </div><br>
+    <div id="texto-descripcion">
+      <p>El cifrado César es uno de los primeros métodos de cifrado conocidos históricamente. Julio César lo usó para enviar órdenes a sus generales en los campos de batalla.<br>Consistía en escribir el mensaje con un alfabeto que estaba formado por las letras del alfabeto latino normal desplazadas tres posiciones a la derecha.</p>
+    </div>
+    <div class="boton-siguiente">
+      <button onclick="mostrarSiguienteBloque('resultado')">seleccionar</button>
+    </div>
+
+  </div>
+
+  <div class="contenedor oculto" id="resultado">
+
+      <div> <!--Contenedor de desplazamientos -->
+        <h3>Eligue tu numero de desplazamientos</h3><br>
+        <input type="number" name="numero" value="50" min="2" max="50" step="1">
+      </div>
+      <div> <!--Contenedor de texto -->
+        <h3>Agrega tu texto y presiona si quieres cifrar o descifrar tu mensaje</h3>
+        <textarea placeholder="Tu texto aqui..." name="cuadroTexto" rows="8" cols="80"></textarea>
+      </div>
+      <div class="botones-decifrado"> <!--Contenedor botones cifrar y descifrar -->
+        <button type="button" name="button-cifrar">CIFRAR</button>
+        <button type="button" name="button-descifrar">DESCIFRAR</button>
+      </div>
+      <h3>Aquí aparecerá tu resultado</h3><br>
+      <div> <!--Contenedor resultado -->
+
+      </div>
+      <div> <!-- Contenedor botones de resultado-->
+        <button type="button" name="button-copiar">Copiar</button>
+        <button type="button" name="button-borrar">Borrar</button>
+        <div> <!--Contenedor regresar al menú de codigos -->
+            <button>Regresar</button>
+          </div>
+      </div>
+  </div>
 
 <footer class="pieDePagina">
   <p>Copyright 2020</p>
 </footer>
 
 
-<div>
-  <script
-    type="text/javascript" src="app.js">
-  </script>
-</div>
+
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="cipher.js"></script>
+  </section>
 </body>
 </html>
