@@ -1,4 +1,4 @@
-body:not(img){
+body{
   background:url(../img/valentin.jpg);
   text-align: center;
   }
@@ -36,18 +36,19 @@ section{
 
 #imagen-love{
       border-radius: 100px;
-      width: 500px; height: 500px;
+      width: 500px;
+      height: 500px;
 }
 
 
-.codigo div {
-      width:330px;
-      margin-top:-10px;
+.box{
+  background-color: #1abc9c;
+  color: #fff;
+  margin: auto;
 }
 
-img:not(#imagen-love) {
-      width:100px;
-      height:100px;
-      float:left;
-      margin:10px 10px 0 0;
+.contenedor-imagen img{
+  display: block;
+  width: 30px;
+  height: 30px;
 }
