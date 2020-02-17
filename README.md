@@ -10,7 +10,7 @@ Una aplicación facil de entender y utilizar.
 ##Prototipo mano alzada
 
 ##Prototipo Adobe xd
-<img src img/Screenshot_7.png>
+<img src = "img/Screenshot_7.png">
 <img src img/Screenshot_1.png>
 <img src img/Screenshot_2.png>
 
