@@ -10,12 +10,13 @@ Una aplicación facil de entender y utilizar.
 ##Prototipo mano alzada
 
 ##Prototipo Adobe xd
-! [Imagen Adobe xd] (https://github.com/AmbarVelez/CDMX009-cipher/blob/master/img/Screenshot_7.png?raw=true)
-! [Imagen Adobe xd] (https://github.com/AmbarVelez/CDMX009-cipher/blob/master/img/Screenshot_1.png?raw=true)
-! [Imagen Adobe xd] (https://github.com/AmbarVelez/CDMX009-cipher/blob/master/img/Screenshot_2.png?raw=true)
+<img src img/Screenshot_7.png>
+<img src img/Screenshot_1.png>
+<img src img/Screenshot_2.png>
+
 
 
 ##Imagen final
-! [Imagen final] (https://github.com/AmbarVelez/CDMX009-cipher/blob/master/img/Screenshot_3.png?raw=true)
-! [Imagen final] (https://github.com/AmbarVelez/CDMX009-cipher/blob/master/img/Screenshot_4.png?raw=true)
-! [Imagen final] (https://github.com/AmbarVelez/CDMX009-cipher/blob/master/img/Screenshot_5.png?raw=true)
+<img src img/Screenshot_3.png>
+<img src img/Screenshot_4.png>
+<img src img/Screenshot_5.png>
