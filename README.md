@@ -28,35 +28,35 @@ El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplic
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto.
 
-**UX**
- - :heavy_check_mark: Diseñar la aplicación pensando y entendiendo al usuario.
- - :heavy_check_mark: Crear prototipos para obtener feedback e iterar.
+- **UX**
+ - [:heavy_check_mark:] Diseñar la aplicación pensando y entendiendo al usuario.
+ - [:heavy_check_mark:] Crear prototipos para obtener feedback e iterar.
  - Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
-**HTML y CSS**
- - :heavy_check_mark: Uso correcto de HTML semántico.
- - :heavy_check_mark: Uso de selectores de CSS.
+- **HTML y CSS**
+ - [:heavy_check_mark:] Uso correcto de HTML semántico.
+ - [:heavy_check_mark:]Uso de selectores de CSS.
  - Construir tu aplicación respetando el diseño realizado (maquetación).
 
-**DOM**
- - :heavy_check_mark: Uso de selectores del DOM.
+- **DOM**
+ - [:heavy_check_mark:]Uso de selectores del DOM.
  - Manejo de eventos del DOM.
  - Manipulación dinámica del DOM.
 
-**Javascript**
- - :heavy_check_mark: Manipulación de strings.
+- **Javascript**
+ - [:heavy_check_mark:]Manipulación de strings.
  - Uso de condicionales (if-else | switch).
  - Uso de bucles (for | do-while).
  - Uso de funciones (parámetros | argumentos | valor de retorno).
  - Declaración correcta de variables (const & let).
 
-**Testing**
- - :heavy_check_mark: Testeo de tus funciones.
+- **Testing**
+ - [:heavy_check_mark:]Testeo de tus funciones.
 
-**Git y GitHub**
- - :heavy_check_mark: Comandos de git (add | commit | pull | status | push).
- - :heavy_check_mark: Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- **Git y GitHub**
+ - [:heavy_check_mark:]Comandos de git (add | commit | pull | status | push).
+ - [:heavy_check_mark:]Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
-**Buenas prácticas de desarrollo**
+- **Buenas prácticas de desarrollo**
  - Uso de identificadores descriptivos (Nomenclatura | Semántica).
  - Uso de linter para seguir buenas prácticas (ESLINT).
