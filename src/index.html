@@ -8,8 +8,7 @@
 
 <body>
   <section id="wrap">
-
-  <div class="contenedor mostrando" id="principal"><!--pagina principal-->
+    <div class="contenedor mostrando" id="principal"><!--pagina principal-->
     <div>
       <img src="../img/enamorados1.png" alt="enamorados" id="imagen-love"><!--imagenl-->
     </div>
@@ -60,7 +59,7 @@
         <h3>Agrega tu texto y presiona si quieres cifrar o descifrar tu mensaje</h3><br>
         <textarea id="textoEscrito" placeholder="Tu texto aqui..." name="cuadroTexto" rows="8" cols="80"></textarea>
       </div>
-      <div class="botones-decifrado"> <!--Contenedor botones cifrar y descifrar -->
+      <div class="botones-descifrado"> <!--Contenedor botones cifrar y descifrar -->
         <button type="submit" onclick="cifrar()">CIFRAR</button>
         <button type="submit" onclick="descifrar()">DESCIFRAR</button><br>
         <button onclick="document.getElementById('textoEscrito').value = ''">Borrar</button><br>
@@ -68,9 +67,9 @@
         <p id="resultados"></p>
       </div>
 
-      <div> <!-- Contenedor boton de resultado-->
+      <div class="result"> <!-- Contenedor boton de resultado-->
         <button onclick="copiarResultado();" type="button" name="button-copiar">Copiar</button>
-        <div> <!--Contenedor regresar al menú de codigos -->
+        <div class="return"> <!--Contenedor regresar al menú de codigos -->
             <button onclick="mostrarSiguienteContenedor('ciphers','resultado')">Regresar</button>
         </div>
       </div>
