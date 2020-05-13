@@ -20,6 +20,14 @@ section{
       clear: both;
       }
 
+#imagen-love{
+      border-radius: 100px;
+      width: 500px;
+      height: 500px;
+      margin-bottom: auto;
+    }
+
+
 .logo{
   margin-top: 1px;
   width: auto;
@@ -32,13 +40,6 @@ section{
 
 .contenedor.mostrando{
       display: block;
-}
-
-#imagen-love{
-      border-radius: 100px;
-      width: 500px;
-      height: 500px;
-      margin-bottom: auto;
 }
 
 
@@ -54,6 +55,7 @@ section{
   display: inline-block;
   margin: 20px;
 }
+
 
 p{
   text-align: center;
